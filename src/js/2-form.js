@@ -27,8 +27,6 @@ function populateStorageData() {
     form.elements.email.value = storageData.email;
     form.elements.message.value = storageData.message;
   }
-
-  //   console.log(formData);
 }
 
 function handleSubmit(event) {
